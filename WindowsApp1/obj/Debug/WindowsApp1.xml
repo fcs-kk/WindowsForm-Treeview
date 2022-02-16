@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApp1
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApp1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:WindowsApp1.ClsCarrierNode.#ctor(System.String)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="name"></param>
+</member>
+<member name="M:WindowsApp1.ClsCarrierNode.#ctor(System.String,System.String)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="name"></param>
+ <param name="key"></param>
+</member>
+<member name="M:WindowsApp1.ClsCarrierNode.ChildNodes">
+ <summary>
+ 全ての子ノードを返す
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsApp1.frmMain.frmMain_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp1.frmMain.createCarrierData(System.String)">
+ <summary>
+ キャリアノードの作成
+ </summary>
+ <param name="srcText">ソーステキスト</param>
+ <returns>キャリアノード</returns>
+</member>
+<member name="M:WindowsApp1.frmMain.buildTreeView(WindowsApp1.ClsCarrierNode)">
+ <summary>
+ ツリービューを構築
+ </summary>
+ <param name="carrierNode">キャリアノードデータ</param>
+</member>
+<member name="M:WindowsApp1.frmMain.loadNodeData(WindowsApp1.ClsCarrierNode,System.Windows.Forms.TreeNode)">
+ <summary>
+ ノードにデータを読み込む
+ </summary>
+ <param name="srcNode">元ノードデータ</param>
+ <param name="destNode">読み込み先のツリーノード</param>
+</member>
+<member name="M:WindowsApp1.frmMain.treeView_AfterCheck(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ ノードチェックイベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp1.frmMain.btnConvert_Click(System.Object,System.EventArgs)">
+ <summary>
+ 変換ボタン押下イベント
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
