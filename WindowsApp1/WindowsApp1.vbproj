@@ -86,7 +86,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClsCarrierNode.vb" />
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>

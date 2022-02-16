@@ -22,3 +22,15 @@ Y:\workspace\WindowsForm-Treeview\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreC
 Y:\workspace\WindowsForm-Treeview\WindowsApp1\obj\Debug\WindowsApp1.exe
 Y:\workspace\WindowsForm-Treeview\WindowsApp1\obj\Debug\WindowsApp1.xml
 Y:\workspace\WindowsForm-Treeview\WindowsApp1\obj\Debug\WindowsApp1.pdb
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\bin\Debug\WindowsApp1.exe
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\bin\Debug\WindowsApp1.pdb
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\bin\Debug\WindowsApp1.xml
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.vbprojAssemblyReference.cache
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.frmMain.resources
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.exe
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.xml
+Y:\workspace\WindowsForm-Treeview.new\WindowsApp1\obj\Debug\WindowsApp1.pdb

@@ -22,25 +22,6 @@ WindowsApp1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="M:WindowsApp1.ClsCarrierNode.#ctor(System.String)">
- <summary>
- コンストラクタ
- </summary>
- <param name="name"></param>
-</member>
-<member name="M:WindowsApp1.ClsCarrierNode.#ctor(System.String,System.String)">
- <summary>
- コンストラクタ
- </summary>
- <param name="name"></param>
- <param name="key"></param>
-</member>
-<member name="M:WindowsApp1.ClsCarrierNode.ChildNodes">
- <summary>
- 全ての子ノードを返す
- </summary>
- <returns></returns>
-</member>
 <member name="M:WindowsApp1.frmMain.frmMain_Load(System.Object,System.EventArgs)">
  <summary>
  フォームロード
@@ -48,25 +29,17 @@ WindowsApp1
  <param name="sender"></param>
  <param name="e"></param>
 </member>
-<member name="M:WindowsApp1.frmMain.createCarrierData(System.String)">
+<member name="M:WindowsApp1.frmMain.createCarrierData">
  <summary>
  キャリアノードの作成
  </summary>
- <param name="srcText">ソーステキスト</param>
  <returns>キャリアノード</returns>
 </member>
-<member name="M:WindowsApp1.frmMain.buildTreeView(WindowsApp1.ClsCarrierNode)">
+<member name="M:WindowsApp1.frmMain.buildTreeView(System.Windows.Forms.TreeNode)">
  <summary>
  ツリービューを構築
  </summary>
  <param name="carrierNode">キャリアノードデータ</param>
-</member>
-<member name="M:WindowsApp1.frmMain.convertNodeData(WindowsApp1.ClsCarrierNode,System.Windows.Forms.TreeNode)">
- <summary>
- キャリアノードからツリーノードへ変換
- </summary>
- <param name="srcCarrierNode">変換元キャリアノード</param>
- <param name="destTreeNode">変換先ツリーノード</param>
 </member>
 <member name="M:WindowsApp1.frmMain.treeView_AfterCheck(System.Object,System.Windows.Forms.TreeViewEventArgs)">
  <summary>
