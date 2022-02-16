@@ -61,12 +61,12 @@ WindowsApp1
  </summary>
  <param name="carrierNode">キャリアノードデータ</param>
 </member>
-<member name="M:WindowsApp1.frmMain.loadNodeData(WindowsApp1.ClsCarrierNode,System.Windows.Forms.TreeNode)">
+<member name="M:WindowsApp1.frmMain.convertNodeData(WindowsApp1.ClsCarrierNode,System.Windows.Forms.TreeNode)">
  <summary>
- ノードにデータを読み込む
+ キャリアノードからツリーノードへ変換
  </summary>
- <param name="srcNode">元ノードデータ</param>
- <param name="destNode">読み込み先のツリーノード</param>
+ <param name="srcCarrierNode">変換元キャリアノード</param>
+ <param name="destTreeNode">変換先ツリーノード</param>
 </member>
 <member name="M:WindowsApp1.frmMain.treeView_AfterCheck(System.Object,System.Windows.Forms.TreeViewEventArgs)">
  <summary>

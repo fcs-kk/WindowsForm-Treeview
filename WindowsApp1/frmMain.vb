@@ -64,8 +64,8 @@
             '初期ノードの作成
             Dim treeNode = New TreeNode
 
-            'ノードデータの読み込み
-            loadNodeData(carrierNode, treeNode)
+            'キャリアノードからツリーノードへ変換
+            convertNodeData(carrierNode, treeNode)
 
             'ノードの追加
             For Each currentNode As TreeNode In treeNode.Nodes
@@ -78,22 +78,22 @@
     End Sub
 
     ''' <summary>
-    ''' ノードにデータを読み込む
+    ''' キャリアノードからツリーノードへ変換
     ''' </summary>
-    ''' <param name="srcNode">元ノードデータ</param>
-    ''' <param name="destNode">読み込み先のツリーノード</param>
-    Private Sub loadNodeData(srcNode As ClsCarrierNode, destNode As TreeNode)
+    ''' <param name="srcCarrierNode">変換元キャリアノード</param>
+    ''' <param name="destTreeNode">変換先ツリーノード</param>
+    Private Sub convertNodeData(srcCarrierNode As ClsCarrierNode, destTreeNode As TreeNode)
 
-        '元ノードデータをループ
-        For Each currentNode As ClsCarrierNode In srcNode.Nodes
+        'キャリアノードをループ
+        For Each currentNode As ClsCarrierNode In srcCarrierNode.Nodes
 
             '' ノードデータからツリーノードを作成
-            Dim treeNode = destNode.Nodes.Add(currentNode.Key, currentNode.Name)
+            Dim treeNode = destTreeNode.Nodes.Add(currentNode.Key, currentNode.Name)
             treeNode.Checked = currentNode.Checked
 
             '' 子ノードがある場合、再帰的に繰り返す
-            If 0 < srcNode.Nodes.Count Then
-                loadNodeData(currentNode, treeNode)
+            If 0 < srcCarrierNode.Nodes.Count Then
+                convertNodeData(currentNode, treeNode)
             End If
         Next
     End Sub
